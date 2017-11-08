@@ -1,0 +1,122 @@
+body {
+background-color: rgb(230, 230, 230);
+font-family: 'Montserrat', sans-serif;
+color: rgb(100, 100, 100);
+line-height: 1.6;
+}
+
+body p {
+  font-size: 15px;
+}
+
+li {
+  list-style-type: none;
+}
+h1 {
+  color: #1989AC;
+}
+
+h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.img-smaller {
+  width: 150px;
+}
+
+.container-center {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-white {
+  color: rgb(100, 100, 100);
+  background-color: white;
+}
+
+.card-center {
+  border-radius: 5px;
+  border: 2px solid rgb(200, 200, 200);
+  padding: 20px;
+  box-shadow: 0px 0px 0px grey;
+  margin: 20px;
+
+}
+.buton-blue {
+  border-radius: 5px;
+  border: 2px solid rgb(250, 250, 250);
+  box-shadow: 0.5px 0.5px 0.5px grey;
+  background-color: #8BCFCC;
+  margin: 0 auto;
+  padding: 10px;
+  color: rgb(100, 100, 100);
+}
+.btn-small {
+  color: rgb(100, 100, 100);
+}
+
+.profile-circle {
+  border-radius: 50px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style-type: none;
+}
+
+.identation-right {
+  padding-left: 20px;
+}
+
+.space-between-image {
+  padding: 20px;
+}
+
+#sidebar {
+  background-color: #374048;
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.btn-bigger {
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+
+#page-content {
+  margin-left: 100px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
